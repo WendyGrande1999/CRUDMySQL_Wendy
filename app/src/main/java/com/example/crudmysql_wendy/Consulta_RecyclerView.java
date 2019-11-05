@@ -20,7 +20,7 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
-import com.example.crudmysqlandroid.R;
+import com.example.crudmysql_wendy.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -70,7 +70,7 @@ public class Consulta_RecyclerView extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_consulta__recycler_view);
+        setContentView(R.layout.activity_consulta_recycler_view);
 
         Toolbar toolbar = findViewById(R.id.toolbar1);
         toolbar.setNavigationIcon(getResources().getDrawable(R.drawable.ic_back));
