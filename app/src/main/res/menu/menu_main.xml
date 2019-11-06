@@ -8,6 +8,7 @@
         android:title="@string/action_settings"
         app:showAsAction="never" />
 
+
     <item
         android:id="@+id/action_listaArticulos"
         android:icon="@drawable/ic_view"
@@ -16,9 +17,17 @@
         app:showAsAction="always" />
 
     <item
+        android:id="@+id/action_acerca"
+        android:orderInCategory="3"
+        android:title="@string/acerca"
+        app:showAsAction="never" />
+
+
+
+    <item
         android:id="@+id/action_salir"
         android:icon="@drawable/ic_close"
-        android:orderInCategory="3"
+        android:orderInCategory="4"
         android:title="@string/salir"
         app:showAsAction="never" />
 

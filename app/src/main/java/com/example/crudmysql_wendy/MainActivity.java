@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity{
 
     private EditText et_codigo, et_descripcion, et_precio;
     private Button btn_guardar, btn_consultaCodigo, btn_consultaDescripcion, btn_eliminar, btn_actualizar;
-
+    Acercade about = new Acercade();
     boolean inputEt=false;
     boolean inputEd=false;
     boolean input1=false;
@@ -334,7 +334,12 @@ public class MainActivity extends AppCompatActivity{
             Intent spinnerActivity = new Intent(MainActivity.this, Consulta_RecyclerView.class);
             startActivity(spinnerActivity);
             return true;
-        }else if(id == R.id.action_salir){
+        } else if(id == R.id.action_acerca){
+            Intent acercaActivity = new Intent(MainActivity.this, Acercade.class);
+            startActivity(acercaActivity);
+            return true;
+
+        } else if(id == R.id.action_salir){
             DialogConfirmacion();
             return true;
         }
